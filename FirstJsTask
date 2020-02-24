@@ -1,0 +1,8 @@
+/*commeent : change string "hEy, HOw aRE yOu?" into  "Hey, how are you?" */
+var wrongString = "hEy, HOw aRE yOu?";
+var lowerCaseString = wrongString.toLowerCase();
+var firstLetter = lowerCaseString[0];
+var upperCaseFirstLetter = firstLetter.toUpperCase();
+var restOfString = lowerCaseString.slice(1,);
+var rightString = upperCaseFirstLetter  + restOfString4 ; // Answer - var rightString;
+rightString
